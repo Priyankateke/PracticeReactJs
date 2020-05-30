@@ -8,7 +8,7 @@ const Hello = () => {
     // )
     return React.createElement(
     'div',
-    {id:'hello'}, 
+    {id:'hello', className:'dummyClass'}, 
     React.createElement('h1',null,'Hello Priyanka')
     )
 }
