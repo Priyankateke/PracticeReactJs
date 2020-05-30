@@ -16,10 +16,13 @@ class App extends Component{
          <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
          <Greet name="Mahesh" heroName="BatMan" />
+         <button>Action</button>
          <Greet name="Ganesh" heroName="super star" />
          
 
-        {/* <Welcome /> */}
+       <Welcome  name="Priyanka" heroName="Wonder Woman"/>
+       <Welcome  name="Mahesh" heroName="BatMan" />
+       <Welcome name="Ganesh" heroName="super star" />
         {/* <Hello /> */}
       </div>
     );
