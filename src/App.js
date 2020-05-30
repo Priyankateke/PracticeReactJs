@@ -13,9 +13,13 @@ class App extends Component{
   render() {
     return (
       <div className="App">
-        {/* <Greet /> */}
+         <Greet />
+         <Greet />
+         <Greet />
+         
+
         {/* <Welcome /> */}
-        <Hello />
+        {/* <Hello /> */}
       </div>
     );
   }
