@@ -8,12 +8,14 @@ import { render } from 'react-dom';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/message';
 
 class App extends Component{
   render() {
     return (
       <div className="App">
-         <Greet name="Priyanka" heroName="Wonder Woman">
+        <Message/>
+         {/* <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
          <Greet name="Mahesh" heroName="BatMan" />
          <button>Action</button>
@@ -22,7 +24,7 @@ class App extends Component{
 
        <Welcome  name="Priyanka" heroName="Wonder Woman"/>
        <Welcome  name="Mahesh" heroName="BatMan" />
-       <Welcome name="Ganesh" heroName="super star" />
+       <Welcome name="Ganesh" heroName="super star" /> */}
         {/* <Hello /> */}
       </div>
     );
