@@ -9,12 +9,13 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/message';
-
+import Count from './components/Count'
 class App extends Component{
   render() {
     return (
       <div className="App">
         <Message/>
+        <Count></Count>
          {/* <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
          <Greet name="Mahesh" heroName="BatMan" />
