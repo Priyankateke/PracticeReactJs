@@ -10,12 +10,14 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/message';
 import Count from './components/Count'
+import CallCustomFunction from './components/CallCustomFunction'
 class App extends Component{
   render() {
     return (
       <div className="App">
         <Message/>
         <Count></Count>
+        <CallCustomFunction></CallCustomFunction>
          {/* <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
          <Greet name="Mahesh" heroName="BatMan" />
@@ -28,6 +30,7 @@ class App extends Component{
        <Welcome name="Ganesh" heroName="super star" /> */}
         {/* <Hello /> */}
       </div>
+      
     );
   }
   

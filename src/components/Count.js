@@ -10,14 +10,21 @@ class Count extends Component {
     }
 
     incrementCount() {
+
         console.log(this.state.count)
-        this.setState({count:this.state.count+1})
+        this.setState({
+            count:this.state.count+1
+        },
+            ()=> {
+                console.log("Callback count: ", this.state.count)
+            }
+            )
     
     }
     render() {
     return (
     <div>
-        <h1>count : {this.state.count}</h1>
+        <h1>Count {this.state.count}</h1>
         <button onClick={()=> this.incrementCount()}>Increment</button>
     </div>)
     }
