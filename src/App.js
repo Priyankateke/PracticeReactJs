@@ -13,6 +13,8 @@ import Count from './components/Count'
 import CallCustomFunction from './components/CallCustomFunction'
 import CallInlineFunction from './components/CallInlineFunction';
 import MultipleFunctionCall from './components/CallMultipleFunction';
+import TakeValue from './components/TakeValueOnClick'
+import GetButtonValue from './components/GetButtonValue'
 class App extends Component{
   render() {
     return (
@@ -21,7 +23,9 @@ class App extends Component{
         <Count></Count>
         <CallCustomFunction></CallCustomFunction>
         <CallInlineFunction></CallInlineFunction><br></br>
-        <MultipleFunctionCall></MultipleFunctionCall>
+        <MultipleFunctionCall></MultipleFunctionCall><br></br>
+        <TakeValue></TakeValue><br></br>
+        <GetButtonValue></GetButtonValue>
         
          {/* <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
