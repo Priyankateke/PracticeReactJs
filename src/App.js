@@ -11,6 +11,7 @@ import Hello from './components/Hello'
 import Message from './components/message';
 import Count from './components/Count'
 import CallCustomFunction from './components/CallCustomFunction'
+import CallInlineFunction from './components/CallInlineFunction';
 class App extends Component{
   render() {
     return (
@@ -18,6 +19,7 @@ class App extends Component{
         <Message/>
         <Count></Count>
         <CallCustomFunction></CallCustomFunction>
+        <CallInlineFunction></CallInlineFunction>
          {/* <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
          <Greet name="Mahesh" heroName="BatMan" />
