@@ -12,6 +12,7 @@ import Message from './components/message';
 import Count from './components/Count'
 import CallCustomFunction from './components/CallCustomFunction'
 import CallInlineFunction from './components/CallInlineFunction';
+import MultipleFunctionCall from './components/CallMultipleFunction';
 class App extends Component{
   render() {
     return (
@@ -19,7 +20,9 @@ class App extends Component{
         <Message/>
         <Count></Count>
         <CallCustomFunction></CallCustomFunction>
-        <CallInlineFunction></CallInlineFunction>
+        <CallInlineFunction></CallInlineFunction><br></br>
+        <MultipleFunctionCall></MultipleFunctionCall>
+        
          {/* <Greet name="Priyanka" heroName="Wonder Woman">
            <p>This is children props</p></Greet>
          <Greet name="Mahesh" heroName="BatMan" />
