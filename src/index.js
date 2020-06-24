@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App headerProps="Header from props" contentProps="Content from props" />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
