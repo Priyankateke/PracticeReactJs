@@ -15,34 +15,20 @@ import CallInlineFunction from './components/CallInlineFunction';
 import MultipleFunctionCall from './components/CallMultipleFunction';
 import TakeValue from './components/TakeValueOnClick'
 import GetButtonValue from './components/GetButtonValue'
-class App extends Component{
+import Array from './components/ArrayOnClick'
+class App extends Component {
   render() {
     return (
       <div className="App">
-        <Message/>
-        <Count></Count>
-        <CallCustomFunction></CallCustomFunction>
-        <CallInlineFunction></CallInlineFunction><br></br>
-        <MultipleFunctionCall></MultipleFunctionCall><br></br>
-        <TakeValue></TakeValue><br></br>
-        <GetButtonValue></GetButtonValue>
-        
-         {/* <Greet name="Priyanka" heroName="Wonder Woman">
-           <p>This is children props</p></Greet>
-         <Greet name="Mahesh" heroName="BatMan" />
-         <button>Action</button>
-         <Greet name="Ganesh" heroName="super star" />
-         
+        <h1>{this.props.headerProps}</h1>
+        <h2>{this.props.contentProps}</h2>
 
-       <Welcome  name="Priyanka" heroName="Wonder Woman"/>
-       <Welcome  name="Mahesh" heroName="BatMan" />
-       <Welcome name="Ganesh" heroName="super star" /> */}
-        {/* <Hello /> */}
       </div>
-      
+
     );
   }
-  
+
 }
+
 
 export default App;
